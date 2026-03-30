@@ -1,0 +1,20 @@
+Unity Version:
+- Unity 6.3 lts -> 6000.3.12f1
+
+Render Pipeline:
+- URP
+
+Scenes:
+- MainScene: full terrain / final environment
+- PlaygroundScene: flat testing environment
+
+
+
+gpt said:
+- Do NOT change Unity version
+- Do NOT switch render pipeline
+- Work on individual branches
+
+- Develop and test features in PlaygroundScene
+- Validate gameplay in MainScene before merging
+- Terrain edits handled by one person at a time
